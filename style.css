@@ -72,7 +72,7 @@
 
 }
 
-.menu-list {
+.menu-container .menu .element .menu-list {
 
     position: absolute;
     top: 100px;
@@ -81,13 +81,13 @@
     height: 400px;
 
     background: rgba(98, 240, 98, 0.4);
-    opacity: 0;
+    display: none;
 
 }
 
 .menu-container .menu .element:hover .menu-list {
 
-    opacity: 1;
+    display: block;
 
 }
 
@@ -125,6 +125,24 @@
     flex: 1 1 auto;
 
     background: aqua;
+
+}
+
+.footer-container footer {
+
+    position: relative;
+    top: 50%;
+
+    transform: translateY(-50%);
+
+}
+
+.footer-container footer p {
+
+    font-size: 35px;
+     
+    width: 100%;
+    text-align: center;
 
 }
 
