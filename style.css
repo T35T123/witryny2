@@ -54,7 +54,7 @@
 
 }
 
-.menu-container .menu .element span, .menu-container .menu .element a{
+.menu-container .menu .element span, .menu-container .menu .element > a{
 
     position: absolute;
     top: 50%;
@@ -91,6 +91,12 @@
 
 }
 
+.main-container .menu .element .menu-list  ul  li  a {
+
+    font-size: 25px;
+
+}
+
 .main-container {
 
     display: flex;
@@ -116,6 +122,28 @@
 
     flex: 1 1;
     background: green;
+
+}
+
+.main-container .article-container article {
+
+    margin: 50px;
+
+}
+
+.main-container .article-container article h1 {
+
+    font-size: 30px;
+
+    margin: 10px;
+
+}
+
+.main-container .article-container article p {
+
+    margin: 20px;
+
+    font-size: 20px;
 
 }
 
